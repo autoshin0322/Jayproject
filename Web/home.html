@@ -4,16 +4,50 @@
     <head>
         <title>WHORU</title>
         <meta charset="utf-8">
+        <style>
+          body{
+          margin:0;
+          }
+          h1{
+            border-bottom: double 5px black;
+            margin: 0;
+          }
+          #grid{
+            display: grid;
+            grid-template-columns: 300px 1fr;
+          }
+          #lorem{
+            padding-right: 30px;
+            padding-left: 30px;
+            margin: 0;
+          }
+          #list{
+            border-right: 5px double black;
+          }
+          @media(max-width){
+            #grid{
+              display: block;
+            }
+          }
+        </style>
     </head>
     <body>
-        <h1>Jays Home</h1>
-        <img src="coding.jpg" width="400">
-        <h1>List</h1>
-        <ol>
-            <li><a href="1.html">About me</a></li>
-            <li><a href="howtostart.html">대학교 준비과정</a></li>
-            <li><a href="Uni_life.html">대학생활</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ol>
+          <center><img src="home.jpg" width="1000">
+            <h1>Blank</h1>
+          <div id="grid">
+            <div id="list">
+              <h2>List</h2>
+              <ol>
+                  <li><a href="aboutme.html">About me</a></li>
+                  <li><a href="howtostart.html">대학교 준비과정</a></li>
+                  <li><a href="Uni_life.html">대학생활</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+              </ol>
+            </div>
+            <div>
+              <h3>Article</h3>
+              <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
     </body>
 </html>
