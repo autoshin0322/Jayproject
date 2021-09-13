@@ -1,12 +1,22 @@
 header{
-  size: 100%;
   background:#999;
   color: gray;
   padding: 10px;
   font-size: 15px;
 }
+.r_top {
+    background-image: url('logo.png');
+    background-position: 45px 10px;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+}
 body{
   margin: 0;
+  -webkit-animation: scaleUpDown 1s ease both;
+  animation: scaleUpDown 1s ease both;
+}
+@keyframes scaleUpDown {
+	from { opacity: 0; -webkit-transform: scale(1.2); transform: scale(1.2); }
 }
 a {
   color:black;
@@ -31,8 +41,30 @@ ol{
   margin:0;
   padding:20px;
 }
+/* #header{
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #999;
+  position: fixed;
+  -webkit-animation: ani_dropdown .3s
+  cubic-bezier(.215,.61,.355,1);
+  animation: ani_dropdown .3s
+  cubic-bezier(.215,.61,.355,1);
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: ani_dropdown;
+} */
+#future-plan{
+  color: rgb(245, 209, 183);
+}
 #present{
-  color: yellow;
+  color: rgb(248, 140, 101);
 }
 #zero{
   display: grid;
