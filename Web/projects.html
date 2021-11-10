@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 
 <html>
     <head>
@@ -19,29 +20,43 @@
           h2{
             color: white;
           }
+          #img{
+            padding-right: 10px;
+          }
         </style>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     </head>
     <body>
-      <header>
-        <a href="index.html"> Blank </a>|
-        <a href="aboutme.html"> About me </a>|
-        <a href="howtostart.html"> Start </a>|
-        <a style="color:gray" href="projects.html"> Projects </a>|
-      </header>
-      <!-- <div id="header">
-        <a href="index.html"> Blank </a>|
-        <a href="aboutme.html"> About me </a>|
-        <a href="howtostart.html"> Start </a>|
-        <a style="color:gray" href="projects.html"> Projects </a>|
-      </div> -->
+      <nav id="menu-bar">
+        <li id="main-menu"><a href="#">Menu</a>
+        <ul id="sub-menu">
+          <li class="wrapper"><a href="index.html" class="btn4">Blank</a></li>
+          <li class="wrapper"><a href="howtostart.html" class="btn4">Start</a></li>
+          <li class="wrapper"><a href="aboutme.html" class="btn4">About me</a></li>
+          <li class="wrapper"><a href="projects.html" class="btn4">Projects</a></li>
+        </ul>
+        </li>
+      </nav>
       <div id="zero">
         <div id="first">
           <div class="how">
             <h2>How learn the coding</h2>
               <ul>
+                <div id="note">
+                  <li>Note</li>
+                  <p>Full stack developer</p>
+                  <p>- 프론트엔드, 백엔드, 서버관리</p>
+                  <p>Front-end developer : </p>
+                  <p>- HTML, CSS, JS</p>
+                </div>
                 <li>Methode</li>
                 <p>생활코딩, 조코딩, 노마드 코딩 등 유튜브 컨텐츠를 사용해서 더 자세히 배우기 시작함</p>
+                <p><a href="https://opentutorials.org/course/1" target="_blank"><img id="img" src="https://yt3.ggpht.com/ytc/AKedOLQxjW9reD4wtXjJWR1mzH8L37nkc670i8ZHNP8C=s176-c-k-c0x00ffffff-no-rj-mo" width="100" height="100" alt="Avartar"></a>
+                  <a href="https://www.youtube.com/c/%EC%A1%B0%EC%BD%94%EB%94%A9JoCoding" target="_blank"><img id="img" src="https://yt3.ggpht.com/ytc/AKedOLRLGbZKY0dWUIDP18tr4UrWUK51Z5XyeXRhGgGP=s176-c-k-c0x00ffffff-no-rj-mo" width="100" height="100" alt="Avartar"></a>
+                  <a href="https://www.youtube.com/c/%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders" target="_blank"><img id="img" src="https://yt3.ggpht.com/ytc/AKedOLTUh5DI9RQkZcNRxzVqXMfyO2jB99F1k49ttgFbrA=s176-c-k-c0x00ffffff-no-rj-mo" width="100" height="100" alt="Avartar"></a>
+                  이미지를 눌러 사이트로 이동
+                </p>
                 <li>Plans</li>
                 <p>웹사이트를 사용한 포트폴리오 제작</p>
                 <p>학교 수업을 제외한 나만의 여러가지 프로젝트</p>
@@ -55,6 +70,12 @@
                     <li>Web Screping</li>
                       <p>나도 코딩으로 배운 웹 스크래핑 엑셀 업무자동화(엑셀)를 이용해서, 대학교 사이트에 접속,<br> 로그인 후 합격한 과목의 정보만 가져온 후 엑셀 생성 저장하는 프로그램 (QIS.py)</p>
                       <p id="future-plan">Deep learning, Machine learning 예정 (12.09.2021 계획)</p>
+                      <div class="yt_box">
+                        <iframe src="https://www.youtube.com/embed/LPqmPfhnR1o?list=PLuHgQVnccGMDy5oF7G5WYxLF3NCYhB9H9"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <!-- <p><a href="https://www.youtube.com/watch?v=KR8ddnPjCtk&ab_channel=%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9" target="_blank"><img id="img" src="https://i.ytimg.com/vi/KR8ddnPjCtk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVOt_Qj2-I-Vuhy0NdDuDICPtukg" alt="Avartar"></a></p> -->
                 </ul>
           </div>
           <div class="HTML">
@@ -65,15 +86,18 @@
                 <li id="present">WEB2, CSS</li>
                 <p id="present">HTML 사용 이후 CSS를 이용한 웹사이트 디자인 배우기</p>
                 <p id="present">CSS Transition, Transform 페이지, 화면 전환시 transform 애니메이션 효과
-                  - 본 홈페이지의 경우 scaleUpDown 효과 사용 (12.09.2021 업데이트)</p>
-                <p id="future-plan">웹사이트 클론 코딩 (12.09.2021 계획)</p>
+                  - 본 홈페이지의 경우 scaleUpDown 효과 사용</p>
+                  <p id="present">영문, 한글 사이트 만들기 (12.09.2021 업데이트)</p>
+                  <p id="future-plan">회원가입, 로그인 만들기 (13.09.2021 계획)</p>
+                <p id="future-plan" color="red">웹사이트 클론 코딩 (12.09.2021 최종계획)</p>
               </ul>
           </div>
           <div class="SQL">
             <h2>SQL Projects</h2>
             <ul>
               <li>My SQL, 학교 수업</li>
-              <p>My slq 을 사용하는 학교수업을 통해 약간의 정보 습득 (차후에 더 배울 예정) (작성일 : 06.09.2021)</p>
+              <p>My slq 을 사용하는 학교수업을 통해 약간의 정보 습득 (차후에 더 배울 예정)
+                (작성일 : 06.09.2021)</p>
             </ul>
           </div>
           <div class="Git">
@@ -92,3 +116,5 @@
       </div>
     </body>
 </html>
+
+<!-- youtube = "<iframe width="852" height="479" src="https://www.youtube.com/embed/KR8ddnPjCtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" -->
