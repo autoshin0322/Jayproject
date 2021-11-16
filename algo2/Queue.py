@@ -1,4 +1,4 @@
-# Stern-Aufgabe 4.10
+# Stern-Aufgabe 4.10. a
 # Pseudo code for Queue
 
 s1 = []
@@ -24,3 +24,6 @@ def ISEMPTY():
         print("Queue is empty")
     else:
         print("Queue is not empty")
+        
+# Worst-case Laufzeit von PUSH() und POP() ist O(1)
+# Bei hier gibt es zwei Stacks, dann ist die Laufzeit O(2) gleich O(1)
