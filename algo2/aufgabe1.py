@@ -1,10 +1,16 @@
-n = int(input())
-name = []
+class test:
+    def __init__(self, name):
+        self.name = "fdsafsa"
+        
+    def dict(self):
+        test.dictionary = "ㄹㅇㄴㄹㅇㄴㅁㄹㄴㅇㅁ"
+        
+    def dich_ruf(self):
+        a = test.dictionary
+        
+        print(a)
 
-for i in range(0, n):
-    x = input()
-    name.append(x)
+x = test("name")
 
-for i in range(len(name)):
-    sen = "Hallo {}!".format(name[i])
-    print(sen)
+x.dict()
+x.dich_ruf()
