@@ -1,0 +1,15 @@
+1. KPMG - Junior Consultant / Berater - IT Sicherheit / IT Seccurity
+    - IT-Sicherheit, IT-Forensik & Evidence und Disclosure Management
+    - Grundkentnisse in IT-Infrastrukturen in bezug auf Netzwerke, Client-/Server-, Mail-, Datenbank- und Application-Server-Umgebungen.
+    - Incident Response, Computer Forensics, eDiscovery, Ethical Hacking, Penetration Testing oder Instrusion Detection
+    - Im Bereich Cyber Security, IT-Forensik, Datenschutz oder Penetration Testing(침투시험) : Sicherheit der Systeme!
+    -
+
+2. msg systems AG - IT Consultant IoT & KI / Consumer Products 
+    - IoT & AI Kundenprojekte von der Konzeption bis hin Implementierung
+    - Kenntnisse in der Anwendungsentwicklung (Java, Python, C#, etc.), Datenbanken(z.B. relationale, NoSQL - Datenbanken, etc.)
+    - oder Artificial Intelligence und Data Science Technologien
+
+3. PwC - Consultant Cyber Security
+    - Sicherheit von IT-Infrastrukturen, IT-Architekturen sowie Fragestellungen zur IT-Governance
+    - 
