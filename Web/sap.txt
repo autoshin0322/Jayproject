@@ -1,0 +1,39 @@
+SAP - ERP (Enterprise Resource Planning) System : ABAP
+    - ABAP Language Developer : CBO developing (Customer Bolt-On)
+    - : 회사의 실정에 비추어 부족하거나 부적합하다고 판단되는 경우,
+    - 일부 기능을 개발하거나 표준 기능/프로세스를 변경하는 것
+
+    - CBO: Enhancement = 회사에 맞게 개발 된 SAP 프로그램
+
+    -Module Consultant:
+    - PI(Process Innovation)
+    - 회사의 실정에 맞는 CBO 프로그램 설계
+    - SAP 세팅 작업(IMG Setting = Configuration)
+    - 사용자 교육
+    => 회사의 실정에 맞게 SAP를 사용할 수 있도록 컨설팅 - 프로그램 설계, SAP 설정
+
+    ABAP Developer + SAP Module Consultant => 프로젝트 투입
+    1. Free-Lancer (SI/SM)
+    2. SI: System Integration
+    3. SM: System Management
+    * Business Process 의 이해! : 경영학
+    SCM - FCM
+    SCM : MM(구매) + SD(영업) <-> PP(생산)
+    FCM : FI(재무회계) <-> CO(관리회계)
+
+    Korea Open Course Ware : 대학수준의 무료강의
+
+    ABAP Developer - ABAP + SQL
+    - 프로그랭믜 성능 위해서 SQL 사용 가능해야함
+
+    SAP Consultant -> ABAP Developing + SQL / SQL -> 데이터분석 / ABAP developing x -> for consultanting no problem
+    1. SAP is also IT field. then need also "Coding test". uses another Programming Language.
+    We have to prepare coding test. But in case of ABAP Developer is another problem. Ability another Programming Launguage to use
+
+    RFC : Remote Function Call
+    EAI: Enterprise Application Integration
+    API: Application Programming Interface
+
+    SAP SYStem(ABAP) <- RFC, EAI, API -> WEB (JAVA)
+
+    * ABAP + SQL notwendig!
