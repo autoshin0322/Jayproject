@@ -13,16 +13,21 @@ def d(n):
     n = str(n)
     for i in n:
         result += int(i)
+    return result
 
 n = 1
-dict = {}
+key = []
+val = []
 
-while n <= 5000:
-    dict[str(n)] = str(d(n))
+self_number = 0
 
-vallst = [dict.values()]
-keylst = [dict.keys()]
+while n < 5000:
+    key.append(str(n))
+    val.append(str(d(n)))
+    n += 1
 
-for d in vallst:
-    if vallst.count(d) == 1:
-        pass
+for i in key:
+    if i not in val:
+        self_number += int(i)
+
+print(self_number)

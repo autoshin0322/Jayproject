@@ -27,5 +27,4 @@ while True:
 avg = sum / number
 
 print("합은 %d, 평균은 %d이다." % (sum, avg))
-
 del sum, avg, number, count
