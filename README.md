@@ -7,8 +7,10 @@ Title: Evaluation von vision Large-Language Modells für Gestenerkennung
 
 Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
 
-Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \newline
-Github: https://github.com/WimPouw/envisionhgdetector \newline
+Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html
+
+Github: https://github.com/WimPouw/envisionhgdetector
+
 Pythonlibrary: https://pypi.org/project/envisionhgdetector/ 
 
 
