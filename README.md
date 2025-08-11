@@ -31,7 +31,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
   - [x] TTLab Dataset
   - [x] University of Edinburgh Dataset
 2. Evaluation von Envisiohgdetector
-  - [ ] Gesture or Non-Gesture Labeling - Durch ELAN
+  - [ ] Gesture, Non-Gesture Labeling - Durch ELAN
   - [ ] Vergleichen mit durch einvisiohgdetector hergestellte **prediction.csv**
   - [ ] Evaluieren
 
