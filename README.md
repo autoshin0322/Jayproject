@@ -1,7 +1,7 @@
 # 📖 Noname
-Goethe-Universität Frankfurt am Main
-Fachbereich 12 Institut für Informatik
-Email: S6010479@stud.uni-frankfurt.de
+###### Goethe-Universität Frankfurt am Main \
+###### Fachbereich 12 Institut für Informatik \
+###### Email: S6010479@stud.uni-frankfurt.de \
 
 ## Title: Noname
 
