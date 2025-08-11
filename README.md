@@ -7,7 +7,7 @@
 
 Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
-Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
+🕵️ Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
 📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector \
 🔗 Github: https://github.com/WimPouw/envisionhgdetector
 
