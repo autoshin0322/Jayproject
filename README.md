@@ -7,7 +7,10 @@
 
 Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
-###### Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
+###### Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html
+###### 📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector
+###### 🔗 Github: https://github.com/WimPouw/envisionhgdetector
+
 ###### 💿 Dataset:
 1. **TTLab Goethe-Universität**
 2. **University of Edinburgh, Centre for Language Evolution link:** https://datashare.ed.ac.uk/handle/10283/3191
@@ -15,8 +18,6 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 
 ###### 🔗 Github: https://github.com/WimPouw/envisionhgdetector
-
-###### 📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector/ 
 
 
 ### Schritt:
