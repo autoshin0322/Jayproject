@@ -389,7 +389,7 @@ df.head()
 ```
 dtw_distances.csv \
 kinematic_features.csv \
-gesture_visualization.csv \
+gesture_visualization.csv
 ***
 
 
