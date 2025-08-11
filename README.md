@@ -5,7 +5,7 @@ Email: S6010479@stud.uni-frankfurt.de
 
 ## Title: Noname
 
-Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
+Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 ###### Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
 ###### 💿 Dataset:
@@ -25,3 +25,13 @@ Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
 3. Tool auswählen : Envisionhgdetector (Empfehlung von Dr. Henlein)
 4. Ausführen den Envisionhgdetector mit Datensatz, ob er Gesten gut erkennt.
 5. noch offen
+
+***
+
+### Aktueller Stand
+1. envisionhgdetector testen
+  - [x]TTLab Dataset
+  - [x]University of Edinburgh Dataset
+2. Evaluation von Envisiohgdetector
+  - [ ]Labeling
+  - [ ]F1-Score, accuracy,   
