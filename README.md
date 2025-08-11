@@ -40,7 +40,7 @@ videoname="D_21"
 
 currentdir = Path.cwd()
 print(f"Current directory: {currentdir}")
-# use path join
+
 videofoldertoday = os.path.join(currentdir, f'{videoname}/videos_to_label')
 outputfolder = os.path.join(currentdir, f'{videoname}/output')
 print(f"Video folder: {videofoldertoday}")
