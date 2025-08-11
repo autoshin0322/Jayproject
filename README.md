@@ -30,6 +30,23 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 1. envisionhgdetector testen
   - [x] TTLab Dataset
   - [x] University of Edinburgh Dataset
+
+'''python
+import os
+import glob as glob
+from pathlib import Path
+
+videoname="D_21"
+
+currentdir = Path.cwd()
+print(f"Current directory: {currentdir}")
+# use path join
+videofoldertoday = os.path.join(currentdir, f'{videoname}/videos_to_label')
+outputfolder = os.path.join(currentdir, f'{videoname}/output')
+print(f"Video folder: {videofoldertoday}")
+print(f"Output folder: {outputfolder}")
+'''
+
 2. Evaluation von Envisiohgdetector
   - [ ] Gesture, Non-Gesture Labeling - Durch ELAN
   - [ ] Vergleichen mit durch einvisiohgdetector hergestellte **prediction.csv**
