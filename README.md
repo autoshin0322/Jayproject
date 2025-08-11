@@ -1,9 +1,9 @@
-# Bachelorarbeit
+# Noname
 Goethe-Universität Frankfurt am Main
 Fachbereich 12 Institut für Informatik
 Email: S6010479@stud.uni-frankfurt.de
 
-Title: Evaluation von vision Large-Language Modells für Gestenerkennung
+Title: Noname
 
 Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
 
