@@ -30,8 +30,8 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 ### Aktueller Stand
 1. envisionhgdetector testen
-  - [x]TTLab Dataset
-  - [x]University of Edinburgh Dataset
+  - [x] TTLab Dataset
+  - [x] University of Edinburgh Dataset
 2. Evaluation von Envisiohgdetector
-  - [ ]Labeling
-  - [ ]F1-Score, accuracy,   
+  - [ ] Labeling
+  - [ ] F1-Score, accuracy,   
