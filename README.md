@@ -31,7 +31,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
   - [x] TTLab Dataset
   - [x] University of Edinburgh Dataset
 
-´´´python
+```python
 import os
 import glob as glob
 from pathlib import Path
@@ -45,7 +45,7 @@ videofoldertoday = os.path.join(currentdir, f'{videoname}/videos_to_label')
 outputfolder = os.path.join(currentdir, f'{videoname}/output')
 print(f"Video folder: {videofoldertoday}")
 print(f"Output folder: {outputfolder}")
-´´´
+```
 
 2. Evaluation von Envisiohgdetector
   - [ ] Gesture, Non-Gesture Labeling - Durch ELAN
