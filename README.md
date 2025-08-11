@@ -8,15 +8,15 @@ Email: S6010479@stud.uni-frankfurt.de
 Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
 
 ###### Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
-###### Dataset:
+###### 💿 Dataset:
 1. **TTLab Goethe-Universität**
 2. **University of Edinburgh, Centre for Language Evolution link:** https://datashare.ed.ac.uk/handle/10283/3191
 3. **IFADV link:** https://www.fon.hum.uva.nl/IFA-SpokenLanguageCorpora/IFADVcorpus/
 
 
-###### Github: https://github.com/WimPouw/envisionhgdetector
+###### 🔗 Github: https://github.com/WimPouw/envisionhgdetector
 
-###### Pythonlibrary: https://pypi.org/project/envisionhgdetector/ 
+###### 📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector/ 
 
 
 ### Schritt:
