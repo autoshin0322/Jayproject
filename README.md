@@ -17,9 +17,6 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 3. **IFADV link:** https://www.fon.hum.uva.nl/IFA-SpokenLanguageCorpora/IFADVcorpus/
 
 
-🔗 Github: https://github.com/WimPouw/envisionhgdetector
-
-
 ### Schritt:
 1. Mit einem Tool für Binäre Klassifikation erkennen Gesten bzw. BIO-Label oder Gesten, Non-Gesten
 2. Datensatz: R-Daten aus Va.Si.Li-Lab verwendet werden. Dazu gehören die Multiperspektiven-Videos 
