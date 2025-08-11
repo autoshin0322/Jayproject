@@ -7,7 +7,8 @@ Title: Evaluation von vision Large-Language Modells für Gestenerkennung
 
 Betreuer: Prof. Dr. Alexander Mehler, Dr. Andy Lücking, Dr. Alexander Henlein
 
-Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html, Dataset: TTLab Goethe-Universität, University of Edinburgh, Centre for Language Evolution
+Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html, Dataset: TTLab Goethe-Universität, University of Edinburgh, Centre for Language Evolution link: https://datashare.ed.ac.uk/handle/10283/3191 IFADV link: https://www.fon.hum.uva.nl/IFA-SpokenLanguageCorpora/IFADVcorpus/
+
 
 Github: https://github.com/WimPouw/envisionhgdetector
 
