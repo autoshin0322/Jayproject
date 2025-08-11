@@ -31,6 +31,8 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
   - [x] TTLab Dataset
   - [x] University of Edinburgh Dataset
 
+***
+
 ### Lets get started
 ```python
 import os
@@ -385,10 +387,10 @@ csvfilessegments = glob.glob(os.path.join(outputfolder, 'analysis', '*kinematic_
 df = pd.read_csv(csvfilessegments[0])
 df.head()
 ```
-dtw_distances.csv
-kinematic_features.csv
-gesture_visualization.csv
-
+dtw_distances.csv \
+kinematic_features.csv \
+gesture_visualization.csv \
+***
 
 
 2. Evaluation von Envisiohgdetector
