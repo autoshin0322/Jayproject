@@ -98,25 +98,7 @@ W0000 00:00:1754921343.578306 16354099 inference_feedback_manager.cc:114] Feedba
 W0000 00:00:1754921343.589766 16354100 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
 Generating labeled video...
 
-Labeling video:   0%|                                                                                                       | 0/129 [00:00<?, ?frames/s]
-Labeling video:   9%|███████▉                                                                                     | 11/129 [00:00<00:01, 103.92frames/s]
-Labeling video:  17%|████████████████                                                                              | 22/129 [00:00<00:01, 98.87frames/s]
-Labeling video:  25%|███████████████████████▎                                                                      | 32/129 [00:00<00:01, 91.43frames/s]
-Labeling video:  33%|██████████████████████████████▌                                                               | 42/129 [00:00<00:01, 83.11frames/s]
-Labeling video:  40%|█████████████████████████████████████▏                                                        | 51/129 [00:00<00:01, 76.04frames/s]
-Labeling video:  46%|██████████████████████████████████████████▉                                                   | 59/129 [00:00<00:01, 69.15frames/s]
-Labeling video:  52%|████████████████████████████████████████████████▊                                             | 67/129 [00:00<00:01, 61.78frames/s]
-Labeling video:  57%|█████████████████████████████████████████████████████▉                                        | 74/129 [00:01<00:01, 51.93frames/s]
-Labeling video:  62%|██████████████████████████████████████████████████████████▎                                   | 80/129 [00:01<00:01, 48.75frames/s]
-Labeling video:  67%|██████████████████████████████████████████████████████████████▋                               | 86/129 [00:01<00:00, 46.60frames/s]
-Labeling video:  71%|██████████████████████████████████████████████████████████████████▎                           | 91/129 [00:01<00:00, 44.76frames/s]
-Labeling video:  74%|█████████████████████████████████████████████████████████████████████▉                        | 96/129 [00:01<00:00, 42.79frames/s]
-Labeling video:  78%|████████████████████████████████████████████████████████████████████████▊                    | 101/129 [00:01<00:00, 41.00frames/s]
-Labeling video:  82%|████████████████████████████████████████████████████████████████████████████▍                | 106/129 [00:01<00:00, 39.25frames/s]
-Labeling video:  85%|███████████████████████████████████████████████████████████████████████████████▎             | 110/129 [00:02<00:00, 37.79frames/s]
-Labeling video:  88%|██████████████████████████████████████████████████████████████████████████████████▏          | 114/129 [00:02<00:00, 36.63frames/s]
-Labeling video:  91%|█████████████████████████████████████████████████████████████████████████████████████        | 118/129 [00:02<00:00, 35.40frames/s]
-Labeling video:  95%|███████████████████████████████████████████████████████████████████████████████████████▉     | 122/129 [00:02<00:00, 33.83frames/s]
+Labeling video:   0%|                                                                                                       | 0/129 [00:00<?, ?frames/s] \
 Labeling video: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 129/129 [00:02<00:00, 48.52frames/s]
 Video labeled at 25.0fps saved to /Users/jaehyunshin/Desktop/envision/D_21/output/labeled_hair_salon.mp4
 Generating ELAN file...
@@ -144,117 +126,8 @@ concert_hall.mp4.eaf
 police_officer.mp4_segments.csv
 restaurant.mp4_segments.csv
 frying_pan.mp4_predictions.csv
-labeled_bible.mp4
-preach.mp4_segments.csv
-labeled_photographer.mp4
-labeled_chef.mp4
-labeled_prison.mp4
-darkroom.mp4_segments.csv
-labeled_concert_hall.mp4
-bible.mp4_predictions.csv
-singer.mp4_features.npy
-photographer.mp4_segments.csv
-labeled_haircut.mp4
-microphone.mp4_segments.csv
-vicar.mp4.eaf
-bible.mp4_features.npy
-camera.mp4_segments.csv
-labeled_take_photo.mp4
-restaurant.mp4_predictions.csv
-scissors.mp4_segments.csv
-labeled_vicar.mp4
-cook.mp4_segments.csv
-hairdresser.mp4_segments.csv
-haircut.mp4.eaf
-frying_pan.mp4_features.npy
-hair_salon.mp4_features.npy
-handcuffs.mp4_predictions.csv
-hairdresser.mp4_predictions.csv
-labeled_sing.mp4
-labeled_camera.mp4
-church.mp4_features.npy
-prison.mp4_segments.csv
-sing.mp4_features.npy
-take_photo.mp4_segments.csv
-singer.mp4_predictions.csv
-chef.mp4.eaf
-labeled_hair_salon.mp4
-handcuffs.mp4.eaf
-handcuffs.mp4_segments.csv
-church.mp4.eaf
-chef.mp4_features.npy
-take_photo.mp4.eaf
-arrest.mp4_features.npy
-police_officer.mp4_predictions.csv
-arrest.mp4_predictions.csv
-take_photo.mp4_predictions.csv
-cook.mp4_predictions.csv
-restaurant.mp4.eaf
-preach.mp4_features.npy
-labeled_preach.mp4
-photographer.mp4.eaf
-restaurant.mp4_features.npy
-police_officer.mp4_features.npy
-hairdresser.mp4.eaf
-labeled_arrest.mp4
-haircut.mp4_features.npy
-concert_hall.mp4_predictions.csv
-vicar.mp4_features.npy
-police_officer.mp4.eaf
-concert_hall.mp4_segments.csv
-microphone.mp4_features.npy
-photographer.mp4_features.npy
-microphone.mp4.eaf
-singer.mp4.eaf
-labeled_hairdresser.mp4
-singer.mp4_segments.csv
-bible.mp4.eaf
-darkroom.mp4_features.npy
-arrest.mp4.eaf
-sing.mp4_predictions.csv
-haircut.mp4_predictions.csv
-vicar.mp4_predictions.csv
-darkroom.mp4.eaf
-hair_salon.mp4_segments.csv
-frying_pan.mp4_segments.csv
-hairdresser.mp4_features.npy
-cook.mp4_features.npy
-camera.mp4_predictions.csv
-cook.mp4.eaf
-scissors.mp4_features.npy
-labeled_handcuffs.mp4
-labeled_cook.mp4
-labeled_frying_pan.mp4
-camera.mp4_features.npy
-prison.mp4.eaf
-bible.mp4_segments.csv
-labeled_church.mp4
-labeled_police_officer.mp4
-scissors.mp4.eaf
-labeled_restaurant.mp4
-camera.mp4.eaf
-preach.mp4.eaf
-microphone.mp4_predictions.csv
-prison.mp4_predictions.csv
-hair_salon.mp4_predictions.csv
-labeled_scissors.mp4
-arrest.mp4_segments.csv
-hair_salon.mp4.eaf
-preach.mp4_predictions.csv
-frying_pan.mp4.eaf
-chef.mp4_segments.csv
-handcuffs.mp4_features.npy
-labeled_microphone.mp4
-church.mp4_predictions.csv
-labeled_singer.mp4
-take_photo.mp4_features.npy
-chef.mp4_predictions.csv
-sing.mp4_segments.csv
-prison.mp4_features.npy
-church.mp4_segments.csv
-photographer.mp4_predictions.csv
-sing.mp4.eaf
-scissors.mp4_predictions.csv
+labeled_bible.mp4....
+
 |start_time|end_time|labeled|label|duration|
 |----------|--------|-------|-----|--------|
 |0     |4.33333|3.766667|1|Gesture|3.333333|
