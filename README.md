@@ -25,6 +25,10 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 4. Ausführen den Envisionhgdetector mit Datensatz, ob er Gesten gut erkennt.
 5. noch offen
 
+### Dataset Vorbearbeitung für Va.Si.Li-Lab
+Da das Video aus dem Vi.Si.Li-Lab für eine Modell­evaluation in seiner ursprünglichen Länge ungeeignet war, wurde es segmentiert.
+Hierfür wurde der Abschnitt von der ersten bis zur letzten erkennbaren Geste ausgewählt und anschließend in Intervalle von jeweils 10 Sekunden unterteilt.
+
 ***
 
 ## Aktueller Stand
