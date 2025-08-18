@@ -34,7 +34,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 ***
 
-### Lets get started
+### Lets get started 
 ```python
 import os
 import glob as glob
@@ -62,10 +62,10 @@ videos = glob.glob(os.path.join(videofoldertoday, '*.mp4'))
 # Display single video
 Video(videos[0], embed=True, width=300)
 ```
-#### Va.Si.Li-Lab
+#### 🥼 Va.Si.Li-Lab
 ![Image](https://github.com/user-attachments/assets/4b7eb575-6501-46e6-829a-910bd31a1297)
 
-#### Univercity of Edinburgh
+#### 📘 Univercity of Edinburgh
 ![Image](https://github.com/user-attachments/assets/a9cab613-03e9-41bf-9a1a-90262187e485)
 ```python
 from envisionhgdetector import GestureDetector
