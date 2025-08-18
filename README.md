@@ -165,15 +165,15 @@ Moviepy - Building video /Users/jaehyunshin/Desktop/envision/D_21/output/gesture
 Moviepy - Writing video /Users/jaehyunshin/Desktop/envision/D_21/output/gesture_segments/haircut.mp4/haircut.mp4_segment_1_Gesture_0.63_5.10.mp4 
 
 ### Ergebnis (Va.Si.Li-Lab Multiperspektives Video)
-![Image](https://github.com/user-attachments/assets/a5c7a5e9-2ded-44fb-b385-467cf94195e1)
+![Image](https://github.com/user-attachments/assets/4b7eb575-6501-46e6-829a-910bd31a1297)
 
 Obwohl es keine Bewegungen gibt, erkennt das Modell als Bewegung(Gesten)
 
 ### Dataset aus Univercity Edinburgh
-labeled video
+labeled video\
 ![Image](https://github.com/user-attachments/assets/a9cab613-03e9-41bf-9a1a-90262187e485)
 
-tracked video
+tracked video\
 ![Image](https://github.com/user-attachments/assets/2e6026d0-1e57-4eae-8493-edefae48fdb6)
 
 ```python
