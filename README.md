@@ -170,7 +170,11 @@ Moviepy - Writing video /Users/jaehyunshin/Desktop/envision/D_21/output/gesture_
 Obwohl es keine Bewegungen gibt, erkennt das Modell als Bewegung(Gesten)
 
 ### Dataset aus Univercity Edinburgh
+labeled video
 ![Image](https://github.com/user-attachments/assets/a9cab613-03e9-41bf-9a1a-90262187e485)
+
+tracked video
+![Image](https://github.com/user-attachments/assets/2e6026d0-1e57-4eae-8493-edefae48fdb6)
 
 ```python
 # Step 3: Create paths
