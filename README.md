@@ -291,9 +291,12 @@ Completed processing segments for vicar.mp4 \
 Moviepy - Building video /Users/jaehyunshin/Desktop/envision/D_21/output/gesture_segments/haircut.mp4/haircut.mp4_segment_1_Gesture_0.63_5.10.mp4. \
 Moviepy - Writing video /Users/jaehyunshin/Desktop/envision/D_21/output/gesture_segments/haircut.mp4/haircut.mp4_segment_1_Gesture_0.63_5.10.mp4 
 
-### 1. Sample von Va.Si.Li-Lab (TTLab Goethe univercity)
-![Image](https://github.com/user-attachments/assets/0f14029b-9e23-4731-8a7a-cdbfe4042d14)
-### 2. Sample von Univercity of Edinburgh
+### Ergebnis (Va.Si.Li-Lab Multiperspektives Video)
+![Image](https://github.com/user-attachments/assets/a5c7a5e9-2ded-44fb-b385-467cf94195e1)
+
+Obwohl es keine Bewegungen gibt, erkennt das Modell als Bewegung(Gesten)
+
+### Dataset aus Univercity Edinburgh
 ![Image](https://github.com/user-attachments/assets/a9cab613-03e9-41bf-9a1a-90262187e485)
 
 ```python
