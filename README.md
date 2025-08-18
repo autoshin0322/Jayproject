@@ -154,11 +154,11 @@ from envisionhgdetector import utils
 segments = utils.cut_video_by_segments(outputfolder)
 ```
 
-### tracked video
-#### Va.Si.Li-Lab
+### 🎥 tracked video
+#### 🥼 Va.Si.Li-Lab
+![Image](https://github.com/user-attachments/assets/38d7b3ea-87f1-4a6e-bd80-0c65a726eff9)
 
-
-#### Univercity of Edinburgh
+#### 📘 Univercity of Edinburgh
 ![Image](https://github.com/user-attachments/assets/2e6026d0-1e57-4eae-8493-edefae48fdb6)
 
 
