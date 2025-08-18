@@ -159,7 +159,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 ![Image](https://github.com/user-attachments/assets/38d7b3ea-87f1-4a6e-bd80-0c65a726eff9)
 
 #### 📘 Univercity of Edinburgh
-![Image](https://github.com/user-attachments/assets/2e6026d0-1e57-4eae-8493-edefae48fdb6)
+![Image](https://github.com/user-attachments/assets/cbfea140-6918-480a-be81-e3e0682ec4b1)
 
 
 
