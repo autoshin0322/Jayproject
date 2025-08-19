@@ -160,13 +160,17 @@ segments = utils.cut_video_by_segments(outputfolder)
 
 ### 🎥 tracked video
 #### 🥼 Va.Si.Li-Lab
-![Image](https://github.com/user-attachments/assets/38d7b3ea-87f1-4a6e-bd80-0c65a726eff9)
+<img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/83be8f49-a3d5-442d-af44-2e9f2f317938" />
 
 #### 📘 Univercity of Edinburgh
-![Image](https://github.com/user-attachments/assets/cbfea140-6918-480a-be81-e3e0682ec4b1)
+<img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/eaa3068d-1177-4694-ab71-d8eb724b5582" />
 
 ### 🏷️ Evaluation
 1. Va.Si.Li-Lab
+  - ConfusionMatrix:
+    <img width="1280" height="960" alt="Image" src="https://github.com/user-attachments/assets/83be8f49-a3d5-442d-af44-2e9f2f317938" />
+  - ConfusionMatrix-avg:
+    
    
 2. Univ. Edinburgh
    
