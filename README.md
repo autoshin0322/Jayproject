@@ -12,7 +12,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 🔗 Github: https://github.com/WimPouw/envisionhgdetector
 
 💿 Dataset:
-1. **TTLab Goethe-Universität - multiperspektive Videos wenden an Dr. H***** \
+1. **TTLab Goethe-Universität - multiperspektive Videos wenden an Dr. H***** 
 2. **University of Edinburgh, Centre for Language Evolution** https://datashare.ed.ac.uk/handle/10283/3191
 3. **IFADV** https://www.fon.hum.uva.nl/IFA-SpokenLanguageCorpora/IFADVcorpus/
 4. **The Multimodal Multidimensional (M3D)** https://osf.io/ankdx/
