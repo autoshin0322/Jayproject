@@ -6,7 +6,7 @@
 
 ### Folder Structure
 
-'''Markdown
+```Markdown
 video1/
 ├── angle_0_finale_output.mp4
 ├── annotations/
@@ -20,4 +20,4 @@ video1/
 ├── loopVarIDs.txt
 ├── output/
 └── videos_to_label/
-'''
+```
