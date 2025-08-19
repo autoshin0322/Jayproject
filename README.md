@@ -165,12 +165,19 @@ segments = utils.cut_video_by_segments(outputfolder)
 #### 📘 Univercity of Edinburgh
 ![Image](https://github.com/user-attachments/assets/cbfea140-6918-480a-be81-e3e0682ec4b1)
 
+#### Evaluation
+1. Va.Si.Li-Lab
+   
+2. Univ. Edinburgh
 
+
+
+***
 
 2. Evaluation von Envisiohgdetector
-  - [ ] Gesture, Non-Gesture Labeling - Durch ELAN
+  - [x] Gesture, Non-Gesture Labeling - Durch ELAN
   - [ ] Vergleichen mit durch einvisiohgdetector hergestellte **prediction.csv**
-  - [ ] Evaluieren
+  - [x] Evaluieren - teilweise (nur für Univ. Edinburgh)
 
 ***
 
