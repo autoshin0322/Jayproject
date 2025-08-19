@@ -168,15 +168,20 @@ segments = utils.cut_video_by_segments(outputfolder)
 ### 🏷️ Evaluation
 1. Va.Si.Li-Lab
   - ConfusionMatrix:
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/83be8f49-a3d5-442d-af44-2e9f2f317938" />
+    
   - ConfusionMatrix-avg:
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/eaa3068d-1177-4694-ab71-d8eb724b5582" />
    
 2. Univ. Edinburgh
   - ConfusionMatrix-arrest:
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/c8762bc9-9f82-40fa-a620-0dee95f0c93f" />
     
   - ConfusionMatrix-avg:
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/8a99fed7-b8c5-4f99-84c0-faf6cd28d9b5" />
    
 | Framename     | Precision  | Recall  | F1-score  |  Accuracy |
