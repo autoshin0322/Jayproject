@@ -169,8 +169,8 @@ segments = utils.cut_video_by_segments(outputfolder)
 1. Va.Si.Li-Lab
    
 2. Univ. Edinburgh
-| Framename | Precision | Recall | F1-score | Accuracy |
-|-----------|-----------|--------|----------|----------|
+| Framename     | Precision  | Recall  | F1-score  |  Accuracy |
+|---------------|------------|---------|-----------|-----------|
 | arrest        | 0.928      | 0.471   | 0.624     | 0.542     |
 | bible         | 0.981      | 0.852   | 0.912     | 0.853     |
 | camera        | 0.991      | 0.853   | 0.917     | 0.855     | 
