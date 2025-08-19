@@ -214,7 +214,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 
 2. Evaluation von Envisiohgdetector
   - [x] Gesture, Non-Gesture Labeling - Durch ELAN
-  - [ ] Vergleichen mit durch einvisiohgdetector hergestellte **prediction.csv**
+  - [x] Vergleichen mit durch einvisiohgdetector hergestellte **prediction.csv**
   - [x] Evaluieren - teilweise (nur für Univ. Edinburgh)
 
 ***
