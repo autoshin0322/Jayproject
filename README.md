@@ -234,7 +234,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 ***
 
 3. Todo
- - [ ] BIO-Klassifizieren
- - [ ] Nachbearbeit der binary Classifikation - Gestenstart: B, Innen: I, Keine Gesten: O
+ - [x] BIO-Klassifizieren
+ - [x] Nachbearbeit der binary Classifikation - Gestenstart: B, Innen: I, Keine Gesten: O
 
 ### Nächster Schritt: Mit vLLM testen
