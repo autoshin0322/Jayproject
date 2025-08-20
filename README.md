@@ -162,7 +162,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 #### 🥼 Va.Si.Li-Lab
 ![Image](https://github.com/user-attachments/assets/38d7b3ea-87f1-4a6e-bd80-0c65a726eff9)#
 
-  - ConfusionMatrix (009, avg):
+  - ConfusionMatrix (009, avg): evaluation result in video1/
     
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/83be8f49-a3d5-442d-af44-2e9f2f317938" />
     
@@ -171,7 +171,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 #### 📘 Univercity of Edinburgh
 ![Image](https://github.com/user-attachments/assets/cbfea140-6918-480a-be81-e3e0682ec4b1)
 
-  - ConfusionMatrix (arrest, avg):
+  - ConfusionMatrix (arrest, avg): evaluation result in D_21/
     
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/c8762bc9-9f82-40fa-a620-0dee95f0c93f" />
     
@@ -209,7 +209,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 
 #### 🥼 Va.Si.Li-Lab
 
-  - ConfusionMatrix
+  - ConfusionMatrix: evaluation result in video1/bio_eval
     
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/c6c0acea-6cca-4b76-b05b-90822c35391f" />
 
@@ -219,7 +219,7 @@ segments = utils.cut_video_by_segments(outputfolder)
     
 #### 📘 Univercity of Edinburgh
 
-  - ConfusionMatrix
+  - ConfusionMatrix: evaluation result in D_21/bio_eval
     
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/3c7dcf3f-9730-489d-8ad1-45630a1c3a10" />
     
