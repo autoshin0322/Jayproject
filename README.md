@@ -236,5 +236,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 3. Todo
  - [x] BIO-Klassifizieren
  - [x] Nachbearbeit der binary Classifikation - Gestenstart: B, Innen: I, Keine Gesten: O
+ - [x] BIO Klassifikation evaluieren - F1, Precision, recall, accuracy, Confusion matrix
+ - [x] Overleaf dokumentieren 
 
 ### Nächster Schritt: Mit vLLM testen
