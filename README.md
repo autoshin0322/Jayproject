@@ -26,7 +26,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 5. Zunächst Gesture, NoGesture Klassifikation
 6. BIO Schema Klassifikation
 7. Evaluation von der beiden Klassifikationen
-8. Ergebnisse befinden sich im jeweiligen Ordner **Va.Si.Li-Lab multiperspektive Videos in video1, Univ. Edinburgh in D_21**
+8. Ergebnisse befinden sich im jeweiligen Ordner: **Va.Si.Li-Lab multiperspektive Videos in video1, Univ. Edinburgh in D_21**
 
 ### Dataset Vorbearbeitung für Va.Si.Li-Lab
 Da das Video aus dem Vi.Si.Li-Lab für eine Modell­evaluation in seiner ursprünglichen Länge ungeeignet war, wurde es segmentiert.
