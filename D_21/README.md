@@ -11,5 +11,5 @@ D_21/
 ├── BIO_summary.csv # bio evaluation 
 ├── README.md
 ├── evaluation_summary.csv # binary evaluation
-└── video1_new.ipynb # jupyter notebook
+└── D_21.ipynb # jupyter notebook
 ```
