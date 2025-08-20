@@ -5,10 +5,11 @@
 ### Folder Structure
 ```Markdown
 D_21/
-├── confusion_matrices/
-├── eaf/
-├── evaluation_summary.csv
-├── labeledeaf/
-├── output/
-└── videos_to_label/
+├── Images/ # binary classification Confusion matrices
+├── bio_images/ # BIO classification Confusion matrices
+├── label/ # .csv bio labeling, binary labeling
+├── BIO_summary.csv # bio evaluation 
+├── README.md
+├── evaluation_summary.csv # binary evaluation
+└── video1_new.ipynb # jupyter notebook
 ```
