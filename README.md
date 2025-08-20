@@ -214,6 +214,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 #### 🥼 Va.Si.Li-Lab
 
   - ConfusionMatrix
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/c6c0acea-6cca-4b76-b05b-90822c35391f" />
 
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/5b748d31-c2c1-43b3-a637-4066c32ce59f" />
@@ -223,7 +224,7 @@ segments = utils.cut_video_by_segments(outputfolder)
 #### 📘 Univercity of Edinburgh
 
   - ConfusionMatrix
-  - 
+    
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/3c7dcf3f-9730-489d-8ad1-45630a1c3a10" />
     
     <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/d8161d6d-14af-4cfd-bc13-152bd6e768ff" />
