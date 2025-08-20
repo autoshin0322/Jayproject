@@ -8,16 +8,11 @@
 
 ```Markdown
 video1/
-├── angle_0_finale_output.mp4
-├── annotations/
-│   ├── 000.eaf
-│   ├── ...
-│   └── 095.eaf
-├── confusion_matrices/
-├── eaf/
-├── evaluation_summary.csv
-├── labeledeaf/
-├── loopVarIDs.txt
-├── output/
-└── videos_to_label/
+├── Images/ # binary classification Confusion matrices
+├── bio_images/ # BIO classification Confusion matrices
+├── label/ # .csv bio labeling, binary labeling
+├── BIO_summary.csv # bio evaluation 
+├── README.md
+├── evaluation_summary.csv # binary evaluation
+└── video1_new.ipynb # jupyter notebook
 ```
