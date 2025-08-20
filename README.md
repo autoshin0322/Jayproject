@@ -158,7 +158,7 @@ from envisionhgdetector import utils
 segments = utils.cut_video_by_segments(outputfolder)
 ```
 
-### 🎥 tracked video & Evaluation Result
+### 🎥 tracked video & 📝 Evaluation Result - binary Classification
 #### 🥼 Va.Si.Li-Lab
 ![Image](https://github.com/user-attachments/assets/38d7b3ea-87f1-4a6e-bd80-0c65a726eff9)#
 
@@ -209,7 +209,25 @@ segments = utils.cut_video_by_segments(outputfolder)
 | vicar         | 0.979      | 0.969   | 0.974     | 0.959     |
 | Avg.          | 0.995      | 0.845   | 0.890     | 0.853     |
 
+### 📝 Evaluation result - BIO Schema
 
+#### 🥼 Va.Si.Li-Lab
+
+  - ConfusionMatrix
+    <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/c6c0acea-6cca-4b76-b05b-90822c35391f" />
+
+    <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/5b748d31-c2c1-43b3-a637-4066c32ce59f" />
+
+    <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/f95ed5ec-f09b-4ad5-8b88-92f519338eb6" />
+    
+#### 📘 Univercity of Edinburgh
+
+  - ConfusionMatrix
+  - 
+    <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/3c7dcf3f-9730-489d-8ad1-45630a1c3a10" />
+    
+    <img width="320" height="240" alt="Image" src="https://github.com/user-attachments/assets/d8161d6d-14af-4cfd-bc13-152bd6e768ff" />
+    
 ***
 
 2. Evaluation von Envisiohgdetector
