@@ -34,7 +34,7 @@ Hierfür wurde der Abschnitt von der ersten bis zur letzten erkennbaren Geste au
 ## Aktueller Stand
 1. envisionhgdetector testen
   - [x] TTLab Dataset
-  - [x] University of Edinburgh Dataset
+  - [x] Univ. Edinburgh Dataset
 
 ***
 
