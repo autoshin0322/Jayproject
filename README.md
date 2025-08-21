@@ -8,10 +8,9 @@
 Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 🕵️ Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
-📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector [![PyPI version](https://img.shields.io/pypi/v/envisionhgdetector.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/envisionhgdetector/) 
-
-🔗 Github: https://github.com/WimPouw/envisionhgdetector
-
+📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector \
+🔗 Github: https://github.com/WimPouw/envisionhgdetector \
+[![PyPI version](https://img.shields.io/pypi/v/envisionhgdetector.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/envisionhgdetector/) 
 💿 Dataset:
 1. **TTLab Goethe-Universität - multiperspektive Videos wenden an Dr. H*** 
 2. **University of Edinburgh, Centre for Language Evolution** https://datashare.ed.ac.uk/handle/10283/3191
