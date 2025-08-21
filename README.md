@@ -10,7 +10,7 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 🕵️ Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
 📚 Pythonlibrary: https://pypi.org/project/envisionhgdetector \
 [![PyPI version](https://img.shields.io/pypi/v/envisionhgdetector.svg?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/envisionhgdetector/) \
-🔗 Github: https://github.com/WimPouw/envisionhgdetector \
+🔗 Github: https://github.com/WimPouw/envisionhgdetector
 
 💿 Dataset:
 1. **TTLab Goethe-Universität - multiperspektive Videos wenden an Dr. H*** 
