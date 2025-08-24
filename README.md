@@ -8,7 +8,8 @@
 Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 
 🕵️ Envisionhgdetector: https://envisionbox.org/embedded_UsingEnvisionHGdetector_package.html \
-[![PyPI package](https://img.shields.io/pypi/v/envisionhgdetector.svg?label=pypi%20package&color=green&logo=pypi&logoColor=white)](https://pypi.org/project/envisionhgdetector/) \
+[![PyPI package](https://img.shields.io/pypi/v/envisionhgdetector.svg?label=pypi%20package&color=green&logo=pypi&logoColor=white)](https://pypi.org/project/envisionhgdetector/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-envisionhgdetector-181717?logo=github&logoColor=white)](https://github.com/WimPouw/envisionhgdetector)
 🔗 Github: https://github.com/WimPouw/envisionhgdetector \
 ➕ additionally envisionbox: https://envisionbox.org/embedded_Mediapiping.html
 
