@@ -9,10 +9,12 @@ from sklearn.metrics import (
 )
 
 
+video="video3"
+
 ### Eval mit ConfusionMatrix, Macro, Weighted Avg
 
 def evaluate_all_labeledeaf(
-    base_dir="video1",
+    base_dir=video,
     save_confusion_csv=True,
     save_confusion_png=True,
     save_global_cm=True,           # 전체 합산 CM 저장 여부
@@ -33,6 +35,17 @@ def evaluate_all_labeledeaf(
     # 글로벌(전체 합산) CM용 누적 변수
     global_cm = None
 
+    # 라벨 정규화 함수
+    def normalize_labels(s: pd.Series) -> pd.Series:
+        s = s.astype(str).str.strip()
+        s = s.str.lower()  # 소문자 통일
+        s = s.replace({
+            "move": "Gesture",
+            "gesture": "Gesture",
+            "nogesture": "NoGesture"
+        })
+        return s
+
     for filename in sorted(os.listdir(label_dir)):
         if not filename.endswith(".csv"):
             continue
@@ -40,7 +53,7 @@ def evaluate_all_labeledeaf(
         # e.g., video1_camera.csv -> camera
         framename = filename.replace(f"{base_dir}_", "").replace(".csv", "")
         gt_path   = os.path.join(label_dir, filename)
-        pred_path = os.path.join(pred_dir, f"{framename}.mp4_predictions.csv")
+        pred_path = os.path.join(pred_dir, f"video2_{framename}.mp4_predictions.csv")
 
         if not os.path.exists(pred_path):
             print(f"[⚠] 예측 파일 없음: {framename}")
@@ -56,8 +69,9 @@ def evaluate_all_labeledeaf(
             print(f"[⚠] time 매칭된 샘플 없음: {framename}")
             continue
 
-        y_true = df["label_true"].astype(str)
-        y_pred = df["label_pred"].astype(str)
+        # === move → Gesture 치환 적용 ===
+        y_true = normalize_labels(df["label_true"])
+        y_pred = normalize_labels(df["label_pred"])
 
         # 파일별 Confusion Matrix
         cm = confusion_matrix(y_true, y_pred, labels=classes)
@@ -178,12 +192,12 @@ def evaluate_all_labeledeaf(
 
 # 실행 & 저장 예시
 df_results = evaluate_all_labeledeaf(
-    base_dir="video1",
+    base_dir="video2",
     save_confusion_csv=True,
     save_confusion_png=True,   # PNG도 저장
     save_global_cm=True,       # 전체 합산 CM 저장
     normalize_png=False        # True면 비율로 시각화
 )
-df_results.to_csv("video1/evaluation_summary.csv", index=False)
-print("✅ Saved: video1/evaluation_summary.csv")
-print("✅ Confusion matrices in: video1/confusion_matrices/")
+df_results.to_csv(f"{video}/evaluation_summary.csv", index=False)
+print(f"✅ Saved: {video}/evaluation_summary.csv")
+print(f"✅ Confusion matrices in: {video}/confusion_matrices/")

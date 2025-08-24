@@ -2,7 +2,7 @@ from moviepy.editor import VideoFileClip
 import os
 import pympi
 
-videoname="video1"                      # Which videos?
+videoname="video2"                      # Which videos?
 
 def cut_video_in_intervals(video_path, start_sec, end_sec, interval_sec, output_dir):
     os.makedirs(output_dir, exist_ok=True)
@@ -55,22 +55,22 @@ def trim_eaf(eaf_path, start_sec, end_sec, interval_sec, output_dir):
         idx += 1
 
 output=f"{videoname}/"   
-start_sec=560                          # starttime
-end_sec=1520                            # endtime
+start_sec=1176                          # starttime
+end_sec=1506                            # endtime
 interval_sec=10                         # don't change
 
-"""cut_video_in_intervals(
-    video_path=f"{videoname}/angle_3_final_output.mp4",
+cut_video_in_intervals(
+    video_path=f"{videoname}/angle_0_final_output.mp4",
     start_sec=start_sec,      
     end_sec=end_sec,        
     interval_sec=interval_sec,
     output_dir=output
-)"""
+)
 
-trim_eaf(
+"""trim_eaf(
     eaf_path=f"{videoname}/eaf/annotation.eaf",
     start_sec=start_sec,
     end_sec=end_sec,
     interval_sec=interval_sec,
     output_dir=f"{videoname}/annotations"
-)
+)"""
