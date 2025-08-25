@@ -243,4 +243,6 @@ segments = utils.cut_video_by_segments(outputfolder)
  - [x] BIO Klassifikation evaluieren - F1, Precision, recall, accuracy, Confusion matrix
  - [x] Overleaf dokumentieren 
 
+### Mehrere Ergebnisse befinden sich im jeweiligen Ordner ❗
+
 ### 🔫 Nächster Schritt: Mit vLLM testen
