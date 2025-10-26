@@ -1,4 +1,4 @@
-# 📖 Noname
+# 📖 EnvisionHGDetector mit Va.Si.Li-Lab Datensatz
 👨‍🎓 Goethe-Universität Frankfurt am Main \
 🏛️ Fachbereich 12 Institut für Informatik \
 📫 E-mail: S6010479@stud.uni-frankfurt.de
