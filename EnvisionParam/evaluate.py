@@ -10,7 +10,7 @@ import random
 from envisionhgdetector import GestureDetector
 
 # --- 1. 경로 및 상수 설정 ---
-BASE_PATH = "test"  # (가정) CSV와 비디오가 있는 기본 폴더
+BASE_PATH = ""  # (가정) CSV와 비디오가 있는 기본 폴더
 GROUND_TRUTH_CSV = os.path.join(BASE_PATH, "annotations.csv")
 INPUT_VIDEO_FILE = os.path.join(BASE_PATH, "videos_to_label/input.mp4")
 OUTPUT_PATH = os.path.join(BASE_PATH, "output") # 임시 파일 저장 경로
@@ -26,8 +26,8 @@ def run_detector(config, video_file_path, output_csv_path):
     print(f"Running detector with config: {config}")
     try:
         detector=GestureDetector(
-        model_type="lightgbm", motions_threshold=config.motions_threshold, gesture_threshold=config.gesture_threshold, min_gap_s=config.min_gap_s, min_length_s=config.min_length_s)
-        detector.run_on_video(video_file_path, output_file=output_csv_path)
+        model_type="lightgbm", motion_threshold=config.motion_threshold, gesture_threshold=config.gesture_threshold, min_gap_s=config.min_gap_s, min_length_s=config.min_length_s)
+        detector.process_folder(video_file_path, output_csv_path)
         print("--- (가상 실행 중) Detector가 예측 CSV를 생성했다고 가정합니다. ---")
         dummy_data = {'start_time': [random.uniform(0, 50), random.uniform(60, 100)], 
                       'end_time': [random.uniform(51, 59), random.uniform(101, 120)], 
@@ -112,8 +112,7 @@ def evaluate_and_log(prediction_path, ground_truth_path, config):
         
         # W&B 대시보드에서 바로 확인 가능하도록 이미지도 로그
         wandb.log({"confusion_matrix": wandb.Image(cm_path)})
-        print(f"🖼️ Confusion Matrix
- saved and logged.")
+        print(f"🖼️ Confusion Matrix saved and logged.")
         
         return True
 
