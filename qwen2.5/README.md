@@ -10,5 +10,6 @@ Betreuer: Prof. Dr. A*** M***, Dr. A*** L***, Dr. A*** H***
 ---
 
 ## Aktueller Stand
-Erstes Ergebnis liegt in models/result_classification.csv
-- Die Antwort hat den Tendenz zu "indexing" zu antworten.
+Erstes Ergebnis liegt in models/result_classification.csv.
+Die Antwort hat den Tendenz zu "indexing" zu antworten. Deswegen braucht man hier ""Prompt-engineering"".
+text: "Decide in this video, what kind of Hand Gesture she do. Answer just in the followed list :\[representing, molding, acting, indexing, other, beat, drawing, emblematic\]
