@@ -7,6 +7,10 @@ EnvisionParam/output/
 EnvisionParam/videos_to_label/*.mp4
 
 qwen2.5/models/videos_to_label/*.mp4
+
+Transformer/videos_to_label/*.mp4
+Transformer/output_envision/tracked_videos/
+Transformer/.envision_tmp/
 # 3. 기타 (나중에 필요할 수도 있음)
 *.log
 .DS_Store
