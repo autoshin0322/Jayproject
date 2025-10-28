@@ -19,7 +19,7 @@ processor = AutoProcessor.from_pretrained(MODEL_NAME)
 # 2. 입력 / 출력 경로
 # -----------------------------------------------------------
 INPUT_DIR = "videos_to_label"             # 모든 .mp4 파일이 들어있는 폴더
-OUTPUT_CSV = "results_classification.csv"      # 결과 저장 파일
+OUTPUT_CSV = "results_classification(explanation).csv"      # 결과 저장 파일
 
 # -----------------------------------------------------------
 # 3. CSV 헤더 생성
@@ -58,9 +58,7 @@ for file_name in sorted(os.listdir(INPUT_DIR)):
                 },
                 {
                     "type": "text",
-                    "text": (
-                        "Decide in this Video, what kind of Hand Gesture she do.. "
-                        "Answer just in the followed list:[representing, molding, acting, indexing, other, beat, drawing, emblematic]"
+                    "text": ("You are a gesture classification assistant. Your task is to analyze the hand gesture shown in the given video. Choose only one label from the following list: [representing, molding, acting, indexing, other, beat, drawing, emblematic]. Do not always choose the same label. Base your answer on the motion, hand shape, and context shown in the video."
                     ),
                 },
             ],
