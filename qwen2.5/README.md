@@ -4,7 +4,7 @@
 📫 E-mail: S*******@stud.uni-frankfurt.de
 ---
 🕵️ Qwen2.5-VL-7B-Instruct \
-[![Qwen2.5 Collection](https://img.shields.io/badge/Qwen2.5-Collection-blue)](https://huggingface.co/collections/Qwen/qwen25)
+[![View Collection](https://img.shields.io/badge/Hugging%20Face-View%20Collection-yellow?logo=huggingface)](https://huggingface.co/collections/Qwen/qwen25)\
 ➕ additionally:
 
 ## Aktuelle Stand
