@@ -1,1 +1,1 @@
-** Jaehyun Shin - Goethe Universitaet Frankfurt - Informatik Fachbereich 12.
+** Jaehyun Shin - Goethe Universitaet Frankfurt - Informatik Fachbereich 12. **
