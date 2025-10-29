@@ -1,11 +1,33 @@
-How to
+Getting ready:
 
-1. make index list with make_index_all.py
-2. train transformer model with train_eval_.py
-3. inference_vit.py 
-4. pred_to_intervals.py -> pred.csv 생성되지만, 동영상의 실제 길이와 계산되어있는 .csv파일의 예측영상의 길이가 맞지않음. 조정이 필요함.
-5.
+Steps Dataset to prepare
+1. To train posevit need a pair of *.features.npy (keypoints), *.labels.csv.
+2. For make features.npy use envisionhgdetector
+3. envisionhgdetector makes *.mp4_features.npy
+4. .npy files in ~/Transformer/data/features, .csv files in ~/Transformer/data/labels
 
-To do
-1. 구조와 python code 작동 순서확인
-2. predictions.csv, pred.csv 시간길이 확인. 왜 영상의 실제길이와 다른것인지.
+additionally
+5. for new data (not trained) followed the Steps
+6. .npy files in ~/Transformer/data/TestFeatures, .csv files in ~/Transformer/data/TestLabels
+
+How to Use:
+
+work in location " Jayproject/Transformer"
+
+1. python make_index.py
+	- make index.csv for all dataset and save in Transformer/data
+	- name, features_path, labels_path
+2. python train_eval.py
+	- split index_all to index_train.csv, index_val.csv, index_test.csv and save in Transformer/data
+	- train the model and save checkpoints in ouputs/ckpts
+
+
+(for additional Step 5, 6)
+3. python posevit/infer.py
+	- use checkpoint, that made in Step 2
+	- make predictions and save in outputs/preds
+
+4. python posevit/BinaryEval.py
+	- evaluation with the predictions from step 3 and ground_truth(~/Transformer/data/TestLabels)
+	 and results saved in ouputs/reports (CM.png and eval_summary.csv)
+
