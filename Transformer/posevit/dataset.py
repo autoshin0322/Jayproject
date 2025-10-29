@@ -21,7 +21,6 @@ def make_windows(X, y, T=32, S=16):
         ys: (num_windows, T)
         idxs: (num_windows,)
     """
-    # 짧은 시퀀스는 아예 제외
     if len(X) < T:
         return np.empty((0, T, X.shape[1])), np.empty((0, T)), np.array([])
 
@@ -71,10 +70,20 @@ class PoseSeqDataset(Dataset):
             min_len = min(len(X), len(y))
             X, y = X[:min_len], y[:min_len]
 
+            # 길이별 처리
+            if len(X) < 27:
+                print(f"[⚠️ too short, skipped] {f_path} (len={len(X)}) < 27")
+                continue
+            elif len(X) < T:
+                pad_len = T - len(X)
+                X = np.pad(X, ((0, pad_len), (0, 0)), mode="constant", constant_values=0)
+                y = np.pad(y, (0, pad_len), mode="constant", constant_values=0)
+                print(f"[ℹ️ padded] {f_path} (len={len(X)-pad_len}) → {len(X)}")
+
             # 윈도우 생성
             Xw, yw, starts = make_windows(X, y, T, S)
             if len(Xw) == 0:
-                print(f"[⚠️ too short, skipped] {f_path} (len={len(X)}) < T={T}")
+                print(f"[⚠️ too short after windowing] {f_path} (len={len(X)}) < T={T}")
                 continue
 
             for Xi, yi in zip(Xw, yw):

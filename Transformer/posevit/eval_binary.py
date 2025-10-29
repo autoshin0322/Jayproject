@@ -29,7 +29,7 @@ def eval_pair(true_csv, pred_csv, out_png="outputs/figs/cm.png"):
 
 if __name__ == "__main__":
     eval_pair(
-        true_csv="data/labels/000.csv",
+        true_csv="data/TestLabels/000.csv",
         pred_csv="outputs/preds/000.mp4_predictions.csv",
         out_png="outputs/figs/000_cm.png"
     )
