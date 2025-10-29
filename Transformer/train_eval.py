@@ -9,7 +9,10 @@ from posevit.model import PoseSeqTransformer as PoseViT
 from torch.utils.data import DataLoader
 from torch import nn
 from tqdm import tqdm
-from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score
+from sklearn.metrics import (
+    f1_score, precision_score, recall_score, accuracy_score,
+    classification_report  # ✅ Added
+)
 
 # =====================
 # 설정
@@ -19,13 +22,17 @@ OUT_DIR = "outputs"
 CKPT_PATH = os.path.join(OUT_DIR, "ckpts/posevit_best.pt")
 REPORT_PATH = os.path.join(OUT_DIR, "reports/posevit_report.csv")
 PLOT_PATH = os.path.join(OUT_DIR, "reports/posevit_comparison.png")
+DETAILED_REPORT_PATH = os.path.join(OUT_DIR, "reports/posevit_detailed_report.csv")  # ✅ Added
 
-DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
+DEVICE = "cuda:1" if torch.cuda.is_available() else "cpu"
 T, S = 32, 16
 BATCH_SIZE = 16
 EPOCHS = 20
 LR = 3e-4
 D_IN = 80  # feature 차원 (예: MediaPipe upper body 등)
+
+# ✅ 현재 학습에 사용 중인 디바이스 확인
+print(f"🚀 Training on device: {DEVICE} ({'GPU available' if torch.cuda.is_available() else 'CPU only'})")
 
 os.makedirs(os.path.join(OUT_DIR, "ckpts"), exist_ok=True)
 os.makedirs(os.path.join(OUT_DIR, "reports"), exist_ok=True)
@@ -127,15 +134,25 @@ def evaluate(loader):
             pred = model(Xb).argmax(dim=-1)
             y_true.extend(yb.cpu().numpy().flatten())
             y_pred.extend(pred.cpu().numpy().flatten())
-    return {
-        "precision": precision_score(y_true, y_pred),
-        "recall": recall_score(y_true, y_pred),
-        "f1": f1_score(y_true, y_pred),
-        "accuracy": accuracy_score(y_true, y_pred)
-    }
+    return y_true, y_pred
 
-val_metrics = evaluate(val_loader)
-test_metrics = evaluate(test_loader)
+# ✅ Validation/Test 구분
+y_true_val, y_pred_val = evaluate(val_loader)
+y_true_test, y_pred_test = evaluate(test_loader)
+
+val_metrics = {
+    "precision": precision_score(y_true_val, y_pred_val),
+    "recall": recall_score(y_true_val, y_pred_val),
+    "f1": f1_score(y_true_val, y_pred_val),
+    "accuracy": accuracy_score(y_true_val, y_pred_val)
+}
+
+test_metrics = {
+    "precision": precision_score(y_true_test, y_pred_test),
+    "recall": recall_score(y_true_test, y_pred_test),
+    "f1": f1_score(y_true_test, y_pred_test),
+    "accuracy": accuracy_score(y_true_test, y_pred_test)
+}
 
 # =====================
 # 6️⃣ 결과 저장
@@ -146,6 +163,19 @@ df = pd.DataFrame([
 ])
 df.to_csv(REPORT_PATH, index=False)
 print(f"📊 Report saved to {REPORT_PATH}")
+
+# ✅ Added: classification_report
+report = classification_report(
+    y_true_test,
+    y_pred_test,
+    target_names=["NoGesture", "Gesture"],
+    output_dict=True
+)
+report_df = pd.DataFrame(report).transpose()
+report_df["accuracy"] = accuracy_score(y_true_test, y_pred_test)
+report_df.to_csv(DETAILED_REPORT_PATH)
+print(f"📄 Detailed classification report saved to {DETAILED_REPORT_PATH}")
+print(report_df)
 
 # =====================
 # 7️⃣ 그래프 시각화
