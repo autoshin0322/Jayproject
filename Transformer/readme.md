@@ -1,4 +1,4 @@
-Getting ready:
+## Getting ready:
 
 Steps Dataset to prepare
 1. To train posevit need a pair of *.features.npy (keypoints), *.labels.csv.
