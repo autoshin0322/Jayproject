@@ -10,7 +10,7 @@ additionally
 5. for new data (not trained) followed the Steps
 6. .npy files in ~/Transformer/data/TestFeatures, .csv files in ~/Transformer/data/TestLabels
 
-How to Use:
+## How to Use:
 
 work in location " Jayproject/Transformer"
 
