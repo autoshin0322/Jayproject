@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Dataset:
 ""GESRes Dataset:1Plitician, 2Clinician, 3Educator""
 ""MULTISIMO Dataset: P**_S**_front-video_Z_S_L, S**_all_video_Z_S_L""
@@ -6,6 +7,8 @@
 ""Va.Si.Li-lab Dataset: video**""
 
 
+=======
+>>>>>>> 70b8471b0cfb1e2d2656f671ed7825d0b268d254
 ## Getting ready:
 
 Steps Dataset to prepare
