@@ -1,9 +1,9 @@
 ## 📽️ Videoname of each Datasets
-1. **GESRes Dataset: 1Plitician, 2Clinician, 3Educator**
-2. **MULTISIMO Dataset: P\*\*_S\*\*_front-video_Z_S_L, S\*\*_all_video_Z_S_L**
-3. **SaGA Dataset: V\*\***
-4. **ZHUBO Dataset: 9-\*\*\*.h264**
-5. **Va.Si.Li-lab Dataset: video\*\***
+1. GESRes Dataset: 1Plitician, 2Clinician, 3Educator
+2. MULTISIMO Dataset: P\*\*_S\*\*_front-video_Z_S_L, S\*\*_all_video_Z_S_L
+3. SaGA Dataset: V\*\*
+4. ZHUBO Dataset: 9-\*\*\*.h264
+5. Va.Si.Li-lab Dataset: video\*\*
 
 
 ## Getting ready:
