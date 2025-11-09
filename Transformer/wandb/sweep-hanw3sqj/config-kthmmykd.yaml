@@ -1,0 +1,16 @@
+wandb_version: 1
+
+BATCH_SIZE:
+  value: 64
+DROPOUT:
+  value: 0.15
+EPOCHS:
+  value: 30
+LR:
+  value: 0.001
+S:
+  value: 16
+T:
+  value: 32
+WEIGHT_DECAY:
+  value: 0.0002

@@ -72,18 +72,15 @@ class PoseSeqDataset(Dataset):
 
             # 길이별 처리
             if len(X) < 27:
-                print(f"[⚠️ too short, skipped] {f_path} (len={len(X)}) < 27")
                 continue
             elif len(X) < T:
                 pad_len = T - len(X)
                 X = np.pad(X, ((0, pad_len), (0, 0)), mode="constant", constant_values=0)
                 y = np.pad(y, (0, pad_len), mode="constant", constant_values=0)
-                print(f"[ℹ️ padded] {f_path} (len={len(X)-pad_len}) → {len(X)}")
 
             # 윈도우 생성
             Xw, yw, starts = make_windows(X, y, T, S)
             if len(Xw) == 0:
-                print(f"[⚠️ too short after windowing] {f_path} (len={len(X)}) < T={T}")
                 continue
 
             for Xi, yi in zip(Xw, yw):

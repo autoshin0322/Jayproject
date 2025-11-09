@@ -24,11 +24,11 @@ REPORT_PATH = os.path.join(OUT_DIR, "reports/posevit_report.csv")
 PLOT_PATH = os.path.join(OUT_DIR, "reports/posevit_comparison.png")
 DETAILED_REPORT_PATH = os.path.join(OUT_DIR, "reports/posevit_detailed_report.csv")  # ✅ Added
 
-DEVICE = "cuda:1" if torch.cuda.is_available() else "cpu"
+DEVICE = "cuda:0" if torch.cuda.is_available() else "cpu"
 T, S = 32, 16
-BATCH_SIZE = 16
+BATCH_SIZE = 8
 EPOCHS = 20
-LR = 3e-4
+LR = 0.0003
 D_IN = 80  # feature 차원 (예: MediaPipe upper body 등)
 
 # ✅ 현재 학습에 사용 중인 디바이스 확인
@@ -37,18 +37,19 @@ print(f"🚀 Training on device: {DEVICE} ({'GPU available' if torch.cuda.is_ava
 os.makedirs(os.path.join(OUT_DIR, "ckpts"), exist_ok=True)
 os.makedirs(os.path.join(OUT_DIR, "reports"), exist_ok=True)
 
-# =====================
-# 1️⃣ 데이터 분리
-# =====================
-all_index = pd.read_csv(INDEX_PATH)
-train_df, temp_df = train_test_split(all_index, test_size=0.3, random_state=42)
-val_df, test_df = train_test_split(temp_df, test_size=0.5, random_state=42)
+# === Step 1: 데이터 분리 ===
+print("📂 Loading index files...")
 
-print(f"✅ Train: {len(train_df)} clips, Val: {len(val_df)}, Test: {len(test_df)}")
+index_all = pd.read_csv("data/index_all.csv")
+index_test = pd.read_csv("data/index_test.csv")  # ✅ 외부 테스트 세트 사용
+
+# train/val = 90% / 10%
+train_df, val_df = train_test_split(index_all, test_size=0.1, random_state=42)
 
 train_df.to_csv("data/index_train.csv", index=False)
 val_df.to_csv("data/index_val.csv", index=False)
-test_df.to_csv("data/index_test.csv", index=False)
+
+print(f"✅ Train: {len(train_df)} clips, Val: {len(val_df)}, Test (external): {len(index_test)}")
 
 # =====================
 # 2️⃣ Dataset & Dataloader
@@ -64,7 +65,7 @@ test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE)
 # =====================
 # 3️⃣ 모델 정의
 # =====================
-model = PoseViT(d_in=D_IN, d_model=128, nhead=4, num_layers=2, num_classes=2).to(DEVICE)
+model = PoseViT(d_in=D_IN, d_model=64, nhead=2, num_layers=4, num_classes=2).to(DEVICE)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=LR)
 
