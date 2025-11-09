@@ -7,8 +7,6 @@
 ""Va.Si.Li-lab Dataset: video**""
 
 
-=======
->>>>>>> 70b8471b0cfb1e2d2656f671ed7825d0b268d254
 ## Getting ready:
 
 Steps Dataset to prepare
