@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 # CSV 파일 불러오기
-true_df = pd.read_csv("clips.csv")
-pred_df = pd.read_csv("results_classification(prompting).csv")
+true_df = pd.read_csv("video42/video42clips.csv")
+pred_df = pd.read_csv("Video42Output.csv")
 
 # index 기준으로 merge
 merged_df = pd.merge(true_df, pred_df, on="index", suffixes=('_true', '_pred'))
